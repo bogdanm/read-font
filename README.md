@@ -21,7 +21,7 @@ The script needs a path to a font file (specified with the `-f` argument), a siz
 - a range of ASCII codes using the `-r` option (for example, `-r 48,57` will process all digits from 0 to 9).
 - an explicit list of characters using the `-c` option (for example, `-c "0123456789"` will process all digits from 0 to 9). `-c` can be given multiple times on the command line.
 
-To output the data read from the font to a JSON file, use `-o <name_of_json_file>`).
+To output the data read from the font to a JSON file, use `-o <name_of_json_file>`.
 
 `-v` enables verbose operation.
 
