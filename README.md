@@ -6,7 +6,7 @@ The code is based on [this excellent article](https://dbader.org/blog/monochrome
 
 ## Installation
 
-- `pip install read-font` to download the version uploaded to PyPI.
+- `pip install read-font` to download and install the version uploaded to PyPI.
 - clone this repository and then run `python setup.py install` to install the latest version on github.
 
 This should be enough in Linux. For Windows, you'll probably need to install the Freetype library:
