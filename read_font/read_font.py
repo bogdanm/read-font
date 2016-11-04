@@ -49,7 +49,9 @@ class Bitmap(object):
     def __repr__(self):
         """Return a string representation of the bitmap's pixels."""
         rows = ''
+        fmt = "%%0%dd " % len(str(self.height))
         for y in range(self.height):
+            rows += fmt % y
             for x in range(self.width):
                 rows += '*' if self.pixels[y * self.width + x] else '.'
             rows += '\n'
